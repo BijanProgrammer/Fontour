@@ -34,6 +34,8 @@ function fillFontsList() {
 	const limit = 12;
 	let loadedFontsCount = 0;
 
+	let rowElements = [];
+
 	for (const fontName of fontNames) {
 		const rowElement = document.createElement('div');
 		rowElement.setAttribute('class', 'fonts-list__row');
@@ -44,14 +46,18 @@ function fillFontsList() {
 
 		const textElement = document.createElement('pre');
 		textElement.setAttribute('class', 'fonts-list__row__text');
-		textElement.style.fontFamily = fontName;
+		textElement.style.fontFamily = fontName.substring(3);
 		textElement.innerHTML = 'این متن آزمایشی است.';
 
 		rowElement.appendChild(nameElement);
 		rowElement.appendChild(textElement);
 		fontsListElement.appendChild(rowElement);
 
+		rowElements.push(rowElement);
+
 		loadedFontsCount++;
 		if (loadedFontsCount === 12) break;
 	}
+
+	groupFonts(fontsListElement, rowElements);
 }
