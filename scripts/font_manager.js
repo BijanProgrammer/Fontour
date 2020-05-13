@@ -37,6 +37,11 @@ function groupFonts(fontsListElement, rows) {
 
 		const groupChangerOptionElement = document.createElement('span');
 		groupChangerOptionElement.innerHTML = GROUP_NAMES[groupName];
+		groupChangerOptionElement.addEventListener('click', (event) => {
+			event.preventDefault();
+			changeGroup(groupName);
+		});
+
 		groupChangerElement.appendChild(groupChangerOptionElement);
 	}
 
@@ -51,11 +56,58 @@ function groupFonts(fontsListElement, rows) {
 
 		nameElement.textContent = fontName.substring(3);
 
-		row.addEventListener('click', changeGroup);
+		row.addEventListener('click', toggleGroupChanger);
 	}
 }
 
-function changeGroup(event) {
+function changeGroup(groupName) {
+	if (clickedRowElement == null) return;
+
+	GROUP_ELEMENTS[groupName].appendChild(clickedRowElement);
+
+	updateFontNames();
+}
+
+function updateFontNames() {
+	let xhr = new XMLHttpRequest();
+
+	xhr.open('POST', 'http://localhost:5000/update', true);
+	xhr.setRequestHeader('Content-Type', 'application/json;charset=UTF-8');
+
+	xhr.send(JSON.stringify({ content: stringifyFontNames() }));
+}
+
+function stringifyFontNames() {
+	let result = [];
+
+	for (const groupElementName in GROUP_ELEMENTS) {
+		const groupElement = GROUP_ELEMENTS[groupElementName];
+
+		const groupFullName = groupElement.getElementsByTagName('h2')[0]
+			.textContent;
+
+		const groupName = Object.keys(GROUP_NAMES).find(
+			(key) => GROUP_NAMES[key] === groupFullName
+		);
+
+		for (const row of groupElement.getElementsByClassName(
+			'fonts-list__row'
+		)) {
+			result.push(
+				'#' +
+					groupName +
+					' ' +
+					row.getElementsByTagName('pre')[0].textContent
+			);
+		}
+	}
+
+	result.sort();
+
+	return result.join('\n');
+}
+
+function toggleGroupChanger(event) {
 	if (
 		event.target !== clickedRowElement &&
 		event.target.parentElement !== clickedRowElement

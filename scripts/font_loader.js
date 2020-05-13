@@ -13,27 +13,15 @@ function loadFontNames() {
 		if (this.status == 200) {
 			fontNames = this.responseText.split('\n');
 			fontNames = fontNames.map((fontName) => fontName.trimRight());
-			fontNames.splice(0, 3);
 
 			fillFontsList();
-		} else if ((this.status = 404)) {
-			textElement.innerHTML = 'CODE 404: Not Found !';
 		}
-	};
-
-	xhr.onerror = function() {
-		console.error('REQUEST EROR');
 	};
 
 	xhr.send();
 }
 
 function fillFontsList() {
-	// Limiting fonts for testing purposes
-	// TODO: Remove limits
-	const limit = 12;
-	let loadedFontsCount = 0;
-
 	let rowElements = [];
 
 	for (const fontName of fontNames) {
@@ -54,9 +42,6 @@ function fillFontsList() {
 		fontsListElement.appendChild(rowElement);
 
 		rowElements.push(rowElement);
-
-		loadedFontsCount++;
-		if (loadedFontsCount === 12) break;
 	}
 
 	groupFonts(fontsListElement, rowElements);
