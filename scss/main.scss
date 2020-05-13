@@ -1,5 +1,6 @@
 $COLOR_WHITE: #f7f7f7;
 $COLOR_BLACK: #232323;
+$COLOR_HIGHLIGHT: cornflowerblue;
 
 * {
 	margin: 0;
@@ -54,8 +55,16 @@ body {
 		margin: 1rem auto;
 		padding: 2rem;
 
+		cursor: pointer;
+
 		&:hover {
-			background-color: orange;
+			background-color: $COLOR_HIGHLIGHT;
+		}
+
+		&--active {
+			background-color: $COLOR_HIGHLIGHT;
+
+			cursor: default;
 		}
 
 		&__name {
@@ -67,6 +76,56 @@ body {
 			font-size: 3.6rem;
 
 			direction: rtl;
+		}
+	}
+}
+
+#group-changer {
+	position: absolute;
+
+	display: none;
+
+	// border-radius: 2rem;
+
+	&.open {
+		display: block;
+	}
+
+	span {
+		background-color: $COLOR_WHITE;
+		color: $COLOR_BLACK;
+
+		display: block;
+
+		margin: 0 1rem;
+		padding: 1rem 2rem;
+
+		// border: none;
+		// border-top: 0.1rem solid $COLOR_BLACK;
+		// border-bottom: 0.1rem solid $COLOR_BLACK;
+
+		box-shadow: inset 0 -0.2rem $COLOR_BLACK;
+
+		font-size: 1.8rem;
+
+		text-align: center;
+		text-transform: capitalize;
+
+		cursor: pointer;
+
+		&:nth-child(1) {
+			border-radius: 0 2rem 0 0;
+		}
+
+		&:last-child {
+			border-radius: 0 0 2rem 2rem;
+
+			box-shadow: none;
+		}
+
+		&:hover {
+			background-color: orange;
+			color: $COLOR_WHITE;
 		}
 	}
 }
