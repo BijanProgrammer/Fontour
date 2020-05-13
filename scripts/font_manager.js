@@ -40,6 +40,7 @@ function groupFonts(fontsListElement, rows) {
 		groupChangerOptionElement.addEventListener('click', (event) => {
 			event.preventDefault();
 			changeGroup(groupName);
+			return false;
 		});
 
 		groupChangerElement.appendChild(groupChangerOptionElement);
