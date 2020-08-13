@@ -1,0 +1,142 @@
+$COLOR_WHITE: #f7f7f7;
+$COLOR_GRAY_LIGHT: #cdcdcd;
+$COLOR_BLACK: #232323;
+$COLOR_HIGHLIGHT: cornflowerblue;
+
+* {
+	margin: 0;
+	padding: 0;
+
+	box-sizing: border-box;
+
+	border: none;
+}
+
+html {
+	font-family: "Ubuntu", "Roboto", sans-serif, serif;
+	font-size: 62.5%;
+}
+
+body {
+	background-color: $COLOR_BLACK;
+	color: $COLOR_WHITE;
+}
+
+.container {
+	width: 70%;
+
+	margin: 0 auto;
+}
+
+.fonts-list {
+	width: 100%;
+
+	margin-top: 3rem;
+
+	h2 {
+		background-color: $COLOR_WHITE;
+		color: $COLOR_BLACK;
+
+		width: 100%;
+
+		margin: 2rem auto;
+		padding: 2rem 5rem;
+
+		font-size: 4.8rem;
+
+		text-align: center;
+		text-transform: uppercase;
+
+		cursor: pointer;
+
+		&.close {
+			background-color: $COLOR_GRAY_LIGHT;
+		}
+	}
+
+	.close ~ .fonts-list__row {
+		display: none;
+	}
+
+	&__row {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+
+		margin: 1rem auto;
+		padding: 2rem;
+
+		cursor: pointer;
+
+		&:hover {
+			background-color: $COLOR_HIGHLIGHT;
+		}
+
+		&--active {
+			background-color: $COLOR_HIGHLIGHT;
+
+			cursor: default;
+		}
+
+		&__name {
+			font-family: "Ubuntu", "Roboto", sans-serif, serif;
+			font-size: 2.4rem;
+		}
+
+		&__text {
+			font-size: 3.6rem;
+
+			direction: rtl;
+		}
+	}
+}
+
+#group-changer {
+	position: absolute;
+
+	display: none;
+
+	// border-radius: 2rem;
+
+	&.open {
+		display: block;
+	}
+
+	span {
+		background-color: $COLOR_WHITE;
+		color: $COLOR_BLACK;
+
+		display: block;
+
+		margin: 0 1rem;
+		padding: 1rem 2rem;
+
+		// border: none;
+		// border-top: 0.1rem solid $COLOR_BLACK;
+		// border-bottom: 0.1rem solid $COLOR_BLACK;
+
+		box-shadow: inset 0 -0.2rem $COLOR_BLACK;
+
+		font-size: 1.8rem;
+
+		text-align: center;
+		text-transform: capitalize;
+
+		cursor: pointer;
+
+		&:nth-child(1) {
+			border-radius: 0 2rem 0 0;
+		}
+
+		&:last-child {
+			border-radius: 0 0 2rem 2rem;
+
+			box-shadow: none;
+		}
+
+		&:hover {
+			background-color: orange;
+			color: $COLOR_WHITE;
+		}
+	}
+}

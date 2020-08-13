@@ -1,46 +1,48 @@
 #b A Aref_ graffiti
 #b A Banoo Light
 #b A Banoo Thin
+#b A Danesh
+#b A Dastan
 #b A Farzian 2
+#b A Hana
+#b A Hayat
+#b A Iranian Sans
+#b A Kavir
+#b A Mashin Tahrir
+#c A Mosalas
 #f A Amine
 #f A Arghavan
 #f A Armita
 #f A Armita Black
+#f A Atila
 #f A Chamran
+#f A GOOGLE
+#f A Ghasem
+#f A Hamase
+#f A Hemmat
+#f A Jannat LT
+#f A Lamia
+#f A Rezvan-fat
+#f A Roze B
+#f A Sahand
+#f A Soraya
+#f AlHurraTxtBold
+#f AlQalam Ishtiaq
+#f AlQalam Kaman v2
+#f AlQalam Mehfil
 #p A Bank
-#u 
-#u 
-#u 
-#u A Ali
-#u A Atila
-#u A Danesh
-#u A Dastan
-#u A Farhood
-#u A Farzian
-#u A Fetne
-#u A GOOGLE
-#u A Gam_Azad
-#u A Ghasem
-#u A Goldan
-#u A Hakim Ghazali
-#u A Hamase
-#u A Hana
-#u A Hayat
-#u A Hemmat
-#u A Iranian Sans
-#u A Jannat LT
-#u A KORDi
-#u A Kavir
+#r A Maktoob
+#s A Farhood
+#s A Fetne
+#s A Gam_Azad
+#s A Hakim Ghazali
+#s A KORDi
 #u A Ketab
-#u A Lamia
 #u A Maghreb jadid
-#u A Maktoob
-#u A Mashin Tahrir
 #u A Mashin Tahrir-Old
 #u A Massir Ballpoint
 #u A Massir Spray
 #u A MehdiHeydari
-#u A Mosalas
 #u A Nafis
 #u A Nasr
 #u A Negaar
@@ -53,12 +55,9 @@
 #u A RaiMedia-Black
 #u A RaiMedia-Bold
 #u A Rezvan
-#u A Rezvan-fat
 #u A Rooznameh
 #u A Roze
-#u A Roze B
 #u A Sade
-#u A Sahand
 #u A Salamat
 #u A Sane Jaleh
 #u A Saray
@@ -67,7 +66,6 @@
 #u A Shams
 #u A Shekari
 #u A Sina-PC
-#u A Soraya
 #u A Spirit Of Doha Black
 #u A Spirit Of Doha Bold
 #u A Spirit Of Doha Medium
@@ -91,13 +89,9 @@
 #u Adobe SHIN
 #u Afarat ibn Blady
 #u Agency FB
-#u AlHurraTxtBold
 #u AlHurraTxtlight
 #u AlHurraTxtreg
 #u AlHurraTxtreg  cv
-#u AlQalam Ishtiaq
-#u AlQalam Kaman v2
-#u AlQalam Mehfil
 #u Aldhabi
 #u Algerian
 #u Amiri
