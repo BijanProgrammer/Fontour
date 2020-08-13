@@ -78,12 +78,8 @@ function changeGroup(groupName) {
 function updateFontNames() {
 	let xhr = new XMLHttpRequest();
 
-	xhr.open('POST', 'http://localhost:5000/update', false);
+	xhr.open('POST', 'http://localhost:5000/update', true);
 	xhr.setRequestHeader('Content-Type', 'application/json;charset=UTF-8');
-
-	xhr.onload = function() {
-		return false;
-	};
 
 	xhr.send(JSON.stringify({ content: stringifyFontNames() }));
 }
