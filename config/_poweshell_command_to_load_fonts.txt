@@ -1,3 +1,5 @@
 [System.Reflection.Assembly]::LoadWithPartialName("System.Drawing")
 
 (New-Object System.Drawing.Text.InstalledFontCollection).Families  | Out-File -FilePath  "{path to font_names.txt}"
+
+https://www.youtube.com/watch?v=6E1Th5RTTBk
