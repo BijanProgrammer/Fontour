@@ -1,27 +1,27 @@
 // a : 'کاملاً رسمی'
 // b : 'رسمی'
+// o : 'غیر رسمی'
 // f : 'فانتزی'
 // h : 'دست‌خط'
-// o : 'گرد'
 // p : 'پیکسلی'
 // s : 'خاص'
 // d : 'عربی'
 // e : 'انگلیسی'
-// z : 'سیستمی'
+// y : 'زبان‌های دیگه'
 // r : 'حذفی'
 // u : 'نامشخص'
 
 const GROUP_NAMES = {
 	a: 'serif',
 	b: 'sans-serif',
+	i: 'informal',
 	f: 'fantasy',
 	h: 'handwriting',
-	o: 'cursive',
 	p: 'pixel',
 	s: 'special',
 	d: 'arabic',
 	e: 'english',
-	z: 'system',
+	y: 'other languages',
 	r: 'remove',
 	u: 'unknown'
 };
@@ -101,7 +101,7 @@ function stringifyFontNames() {
 		}
 	}
 
-	result.sort();
+	result.sort((a, b) => { return a.toLowerCase().localeCompare(b.toLowerCase()); });
 
 	return result.join('\n');
 }
