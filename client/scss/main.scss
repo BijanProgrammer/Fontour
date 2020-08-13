@@ -96,8 +96,6 @@ body {
 
 	display: none;
 
-	// border-radius: 2rem;
-
 	&.open {
 		display: block;
 	}
@@ -111,10 +109,6 @@ body {
 		margin: 0 1rem;
 		padding: 1rem 2rem;
 
-		// border: none;
-		// border-top: 0.1rem solid $COLOR_BLACK;
-		// border-bottom: 0.1rem solid $COLOR_BLACK;
-
 		box-shadow: inset 0 -0.2rem $COLOR_BLACK;
 
 		font-size: 1.8rem;
@@ -124,19 +118,37 @@ body {
 
 		cursor: pointer;
 
-		&:nth-child(1) {
-			border-radius: 0 2rem 0 0;
-		}
-
-		&:last-child {
-			border-radius: 0 0 2rem 2rem;
-
-			box-shadow: none;
-		}
-
 		&:hover {
 			background-color: orange;
 			color: $COLOR_WHITE;
+		}
+	}
+
+	&.opened-from-top {
+		span {
+			&:nth-child(1) {
+				border-radius: 0 2rem 0 0;
+			}
+
+			&:last-child {
+				border-radius: 0 0 2rem 2rem;
+
+				box-shadow: none;
+			}
+		}
+	}
+
+	&.opened-from-bottom {
+		span {
+			&:nth-child(1) {
+				border-radius: 2rem 2rem 0 0;
+			}
+
+			&:last-child {
+				border-radius: 0 0 2rem 0;
+
+				box-shadow: none;
+			}
 		}
 	}
 }
