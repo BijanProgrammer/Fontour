@@ -20,8 +20,8 @@ const GROUP_NAMES = {
 	p: 'pixel',
 	s: 'special',
 	d: 'arabic',
-	e: 'english',
-	y: 'other languages',
+	// e: 'english',
+	// y: 'other languages',
 	r: 'remove',
 	u: 'unknown'
 };

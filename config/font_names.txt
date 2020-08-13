@@ -2,7 +2,6 @@
 #a B Titr
 #a IRANYekan
 #b A Hayat
-#b A Iranian Sans
 #b A Nasr
 #b A Salamat
 #b B Homa
@@ -15,82 +14,43 @@
 #b Far.Diplomaat
 #b IRANSans
 #b Sahel
+#d Arabic Typesetting
 #d QuranTaha
 #d Simplified Arabic
 #d Simplified Arabic Fixed
 #d ZARGHAN MO'ALA
-#f A Amine
 #f A Arghavan
 #f A Armita
 #f A Armita Black
 #f A Atila
-#f A Chamran
 #f A Ghasem
-#f A GOOGLE
 #f A Hamase
-#f A Hemmat
-#f A Jannat LT
-#f A Lamia
 #f A Massir Ballpoint
-#f A Massir Spray
 #f A Mosalas
-#f A Negaar
 #f A Ordibehesht shablon
-#f A Rezvan
-#f A Rezvan-fat
 #f A Roze
 #f A Roze B
-#f A Sade
-#f A Sahand
 #f A Sane Jaleh
 #f A Sardar Hoor
-#f A Soraya
-#f A Yasamin
 #f AFSANEH
-#f AlHurraTxtBold
-#f AlQalam Ishtiaq
-#f AlQalam Kaman v2
-#f AlQalam Mehfil
-#f Amiri
-#f B Esfehan
-#f B Mehr
 #f B Morvarid
 #f B Sepideh
-#f B Sina
-#f B Titr TG E
-#f B Vahid
-#f Dima Barf
-#f Dima Fantasy
-#f Dima Fantasy2
-#f Dima Koodak
-#f Dima Nastaligh Tahriri
 #f Dima Sogand
-#f Dima Yekan Typography
-#f Dima Yekan Web
-#f DimaFred
-#f EntezareZohoor B4
 #f EntezareZohoor C
 #f EntezareZohoor C3
-#f Far.Afaaq
-#f Far.AridiNaskh Black
 #f Far.Ashgar
 #f Far.Fanni
 #f Far.Navad
-#f FDK_aban
-#f FP_Arsoo
-#f Mj_Beirut Heading
 #f Mj_Kaman
 #f Mj_Silicon
-#f Neirizi
 #f Persian-Akbar
 #f Persian-Aman
-#f Persian-EntezareZohoor 1 **
 #f W_hesam
 #f ZARGHAN HADITH
 #h A Shekari
 #h Dast Nevis
+#h Dima Nastaligh Tahriri
 #h Dima Shekasteh Free
-#h Dima Shekasteh Free 2
 #h Far.Dast Nevis
 #h Far.Khodkar
 #h IranNastaliq
@@ -104,6 +64,31 @@
 #h Shekasteh_Beta
 #h Urdu Typesetting
 #h W_parvaz
+#i A Amine
+#i A Chamran
+#i A Iranian Sans
+#i A Negaar
+#i A Rezvan
+#i A Rezvan-fat
+#i A Sade
+#i A Soraya
+#i A Yasamin
+#i Amiri
+#i B Mehr
+#i B Vahid
+#i Dima Barf
+#i Dima Fantasy
+#i Dima Fantasy2
+#i Dima Koodak
+#i Dima Yekan Typography
+#i Dima Yekan Web
+#i DimaFred
+#i EntezareZohoor B4
+#i FDK_aban
+#i FP_Arsoo
+#i Mj_Beirut Heading
+#i Neirizi
+#i Persian-EntezareZohoor 1 **
 #p A Bank
 #p A Pixel
 #p B Elm
@@ -122,4 +107,3 @@
 #s dara-peyvastee
 #s dara-voice2
 #s dara-zanjir
-#d Arabic Typesetting
