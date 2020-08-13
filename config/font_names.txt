@@ -21,6 +21,9 @@
 #f A Hemmat
 #f A Jannat LT
 #f A Lamia
+#f A Massir Ballpoint
+#f A Massir Spray
+#f A Mosalas
 #f A Rezvan-fat
 #f A Roze B
 #f A Sahand
@@ -30,18 +33,15 @@
 #f AlQalam Kaman v2
 #f AlQalam Mehfil
 #p A Bank
+#r A Ketab
+#r A Maghreb jadid
 #r A Maktoob
-#r A Mosalas
 #s A Farhood
 #s A Fetne
 #s A Gam_Azad
 #s A Hakim Ghazali
 #s A KORDi
-#u A Ketab
-#u A Maghreb jadid
 #u A Mashin Tahrir-Old
-#u A Massir Ballpoint
-#u A Massir Spray
 #u A MehdiHeydari
 #u A Nafis
 #u A Nasr
