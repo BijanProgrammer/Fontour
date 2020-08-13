@@ -7,7 +7,7 @@ loadFontNames();
 function loadFontNames() {
 	let xhr = new XMLHttpRequest();
 
-	xhr.open('GET', '../config/font_names.txt', true);
+	xhr.open('GET', 'http://localhost:5000', true);
 
 	xhr.onload = function() {
 		if (this.status == 200) {

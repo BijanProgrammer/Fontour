@@ -9,7 +9,6 @@
 #b A Iranian Sans
 #b A Kavir
 #b A Mashin Tahrir
-#c A Mosalas
 #f A Amine
 #f A Arghavan
 #f A Armita
@@ -32,6 +31,7 @@
 #f AlQalam Mehfil
 #p A Bank
 #r A Maktoob
+#r A Mosalas
 #s A Farhood
 #s A Fetne
 #s A Gam_Azad
