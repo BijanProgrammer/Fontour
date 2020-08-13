@@ -86,7 +86,6 @@ function updateFontNames() {
 	};
 
 	xhr.send(JSON.stringify({ content: stringifyFontNames() }));
-	return false;
 }
 
 function stringifyFontNames() {
