@@ -2,9 +2,12 @@
 // b : 'رسمی'
 // f : 'فانتزی'
 // h : 'دست‌خط'
-// c : 'گرد'
+// o : 'گرد'
 // p : 'پیکسلی'
 // s : 'خاص'
+// d : 'عربی'
+// e : 'انگلیسی'
+// z : 'سیستمی'
 // r : 'حذفی'
 // u : 'نامشخص'
 
@@ -13,9 +16,12 @@ const GROUP_NAMES = {
 	b: 'sans-serif',
 	f: 'fantasy',
 	h: 'handwriting',
-	c: 'cursive',
+	o: 'cursive',
 	p: 'pixel',
 	s: 'special',
+	d: 'arabic',
+	e: 'english',
+	z: 'system',
 	r: 'remove',
 	u: 'unknown'
 };

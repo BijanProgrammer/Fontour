@@ -9,7 +9,7 @@ function loadFontNames() {
 
 	xhr.open('GET', 'http://localhost:5000', true);
 
-	xhr.onload = function() {
+	xhr.onload = function () {
 		if (this.status == 200) {
 			fontNames = this.responseText.split('\n');
 			fontNames = fontNames.map((fontName) => fontName.trimRight());
@@ -34,7 +34,7 @@ function fillFontsList() {
 
 		const textElement = document.createElement('pre');
 		textElement.setAttribute('class', 'fonts-list__row__text');
-		textElement.style.fontFamily = fontName.substring(3);
+		textElement.style.fontFamily = '"' + fontName.substring(3) + '"';
 		textElement.innerHTML = 'این متن آزمایشی است.';
 
 		rowElement.appendChild(nameElement);

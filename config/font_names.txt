@@ -1,14 +1,100 @@
-#b A Aref_ graffiti
-#b A Banoo Light
-#b A Banoo Thin
-#b A Danesh
-#b A Dastan
-#b A Farzian 2
-#b A Hana
+#a B Nazanin
+#a B Titr
 #b A Hayat
 #b A Iranian Sans
-#b A Kavir
-#b A Mashin Tahrir
+#b A Nasr
+#b A Salamat
+#b B Homa
+#b B Koodak
+#b B Lotus
+#b B Tehran
+#b B Yekan
+#b Dana
+#b Dima
+#e Bahnschrift
+#e BankGothic
+#e Baskerville Old Face
+#e Bauhaus 93
+#e Bell MT
+#e Berlin Sans FB
+#e Berlin Sans FB Demi
+#e Bernard MT Condensed
+#e Blackadder ITC
+#e Bodoni MT
+#e Book Antiqua
+#e Bookman Old Style
+#e Bookshelf Symbol 7
+#e Boutros Ads
+#e Bradley Hand ITC
+#e Britannic Bold
+#e Broadway
+#e Brush Script MT
+#e Bustan-Bold
+#e Calibri
+#e Californian FB
+#e Calisto MT
+#e Cambria
+#e Cambria Math
+#e Candara
+#e Castellar
+#e Centaur
+#e Century
+#e Century Gothic
+#e Century Schoolbook
+#e Cheri
+#e Cheri Liney
+#e Chiller
+#e Choobak
+#e Colonna MT
+#e Comic Sans MS
+#e Consolas
+#e Constantia
+#e Cooper Black
+#e Copperplate Gothic Bold
+#e Copperplate Gothic Light
+#e Corbel
+#e Courier New
+#e Curlz MT
+#e Dubai
+#e Dubai Light
+#e Dubai Medium
+#e Dutch & Harley
+#e Ebrima
+#e Edwardian Script ITC
+#e Elephant
+#e Engravers MT
+#e Eras Bold ITC
+#e Eras Demi ITC
+#e Eras Light ITC
+#e Eras Medium ITC
+#e Felix Titling
+#e Footlight MT Light
+#e Forte
+#e Franklin Gothic Book
+#e Franklin Gothic Demi
+#e Franklin Gothic Demi Cond
+#e Franklin Gothic Heavy
+#e Franklin Gothic Medium
+#e Franklin Gothic Medium Cond
+#e Freestyle Script
+#e French Script MT
+#e Gabriola
+#e Gadugi
+#e Gandom
+#e Garamond
+#e Georgia
+#e Gigi
+#e Gill Sans MT
+#e Gill Sans MT Condensed
+#e Gill Sans MT Ext Condensed Bold
+#e Gill Sans Ultra Bold
+#e Gill Sans Ultra Bold Condensed
+#e Gloucester MT Extra Condensed
+#e Goudy Old Style
+#e Goudy Stout
+#e Haettenschweiler
+#e Harlow Solid Italic
+#e Harrington
 #f A Amine
 #f A Arghavan
 #f A Armita
@@ -24,305 +110,60 @@
 #f A Massir Ballpoint
 #f A Massir Spray
 #f A Mosalas
+#f A Negaar
+#f A Ordibehesht shablon
+#f A Rezvan
 #f A Rezvan-fat
+#f A Roze
 #f A Roze B
+#f A Sade
 #f A Sahand
+#f A Sane Jaleh
+#f A Sardar Hoor
 #f A Soraya
+#f A Yasamin
+#f AFSANEH
 #f AlHurraTxtBold
 #f AlQalam Ishtiaq
 #f AlQalam Kaman v2
 #f AlQalam Mehfil
+#f Amiri
+#f B Esfehan
+#f B Mehr
+#f B Morvarid
+#f B Sepideh
+#f B Sina
+#f B Titr TG E
+#f B Vahid
+#f Dima Barf
+#f Dima Fantasy
+#f Dima Fantasy2
+#f Dima Koodak
+#f Dima Nastaligh Tahriri
+#f Dima Sogand
+#f Dima Yekan Typography
+#f Dima Yekan Web
+#f DimaFred
+#f EntezareZohoor B4
+#f EntezareZohoor C
+#f EntezareZohoor C3
+#f FDK_aban
+#f FP_Arsoo
+#h A Shekari
+#h Dast Nevis
+#h Dima Shekasteh Free
+#h Dima Shekasteh Free 2
 #p A Bank
-#r A Ketab
-#r A Maghreb jadid
-#r A Maktoob
-#s A Farhood
+#p A Pixel
+#p B Elm
+#p B Elm Border
+#r AlHurraTxtlight
+#r AlHurraTxtreg
+#r FP sim khardar
 #s A Fetne
-#s A Gam_Azad
-#s A Hakim Ghazali
 #s A KORDi
-#u A Mashin Tahrir-Old
-#u A MehdiHeydari
-#u A Nafis
-#u A Nasr
-#u A Negaar
-#u A Noor
-#u A Ordibehesht shablon
-#u A Piramooz B1
-#u A Piramooz Text B2
-#u A Pixel
-#u A Pixel 2
-#u A RaiMedia-Black
-#u A RaiMedia-Bold
-#u A Rezvan
-#u A Rooznameh
-#u A Roze
-#u A Sade
-#u A Salamat
-#u A Sane Jaleh
-#u A Saray
-#u A Sardar Hoor
-#u A Shablon Cut
-#u A Shams
-#u A Shekari
-#u A Sina-PC
-#u A Spirit Of Doha Black
-#u A Spirit Of Doha Bold
-#u A Spirit Of Doha Medium
-#u A Suls
-#u A Thuluth
-#u A Titraj 1
-#u A Titraj 2
-#u A Yasamin
-#u A ZARGHAN HAY NAHATAG
-#u A Zangar_Hamshahri
-#u A karbala
-#u A-bad kh@t
-#u A-bad kh@t2
-#u AFSANEH
-#u ASVCodar LT Bold
-#u Abo-thar
-#u Abomsaab
-#u Aceh Darusalam
-#u Adobe Arabic
-#u Adobe Arabic SHIN
-#u Adobe SHIN
-#u Afarat ibn Blady
-#u Agency FB
-#u AlHurraTxtlight
-#u AlHurraTxtreg
-#u AlHurraTxtreg  cv
-#u Aldhabi
-#u Algerian
-#u Amiri
-#u Andalus
-#u Arabic Typesetting
-#u Aram
-#u Arbaeen
-#u Arial
-#u Arial Black
-#u Arial Narrow
-#u Arial Rounded MT Bold
-#u AzarShiva
-#u B Arabic Style
-#u B Arash
-#u B Araz
-#u B Aria
-#u B Arshia
-#u B Aseman
-#u B Badkonak
-#u B Badr
-#u B Baran
-#u B Baran Outline
-#u B Bardiya
-#u B Cheshmeh
-#u B Chini
-#u B Compset
-#u B Davat
-#u B Elham
-#u B Elm
-#u B Elm Border
-#u B Esfehan
-#u B Fantezy
-#u B Farnaz
-#u B Ferdosi
-#u B Haleh
-#u B Hamid
-#u B Helal
-#u B Homa
-#u B Jadid
-#u B Jalal
-#u B Johar
-#u B Kaj
-#u B Kamran
-#u B Kamran Outline
-#u B Karim
-#u B Kaveh
-#u B Kidnap
-#u B Koodak
-#u B Koodak Outline
-#u B Kourosh
-#u B Lotus
-#u B Mah
-#u B Mahsa
-#u B Majid Shadow
-#u B Mashhad
-#u B Masjed
-#u B Medad
-#u B Mehr
-#u B Mitra
-#u B Moj
-#u B Morvarid
-#u B Narenj
-#u B Narm
-#u B Nasim
-#u B Nazanin
-#u B Nazanin Outline
-#u B Niki Border
-#u B Niki Outline
-#u B Niki Shadow
-#u B Nikoo
-#u B Paatch
-#u B Rose
-#u B Roya
-#u B Sahar
-#u B Sahra
-#u B Sara
-#u B Sepideh
-#u B Sepideh Outline
-#u B Setareh
-#u B Shadi
-#u B Shiraz
-#u B Siavash
-#u B Sina
-#u B Sooreh
-#u B Sorkhpust
-#u B Tabassom
-#u B Tanab
-#u B Tawfig Outline
-#u B Tehran
-#u B Tir
-#u B Titr
-#u B Titr TG E
-#u B Traffic
-#u B Vahid
-#u B Vosta
-#u B Yagut
-#u B Yas
-#u B Yekan
-#u B Yekan+
-#u B Zaman
-#u B Zar
-#u B Ziba
-#u BBCNassim
-#u Badiefont-Dima
-#u Bahnschrift
-#u Bahnschrift Condensed
-#u Bahnschrift Light
-#u Bahnschrift Light Condensed
-#u Bahnschrift Light SemiCondensed
-#u Bahnschrift SemiBold
-#u Bahnschrift SemiBold Condensed
-#u Bahnschrift SemiBold SemiConden
-#u Bahnschrift SemiCondensed
-#u Bahnschrift SemiLight
-#u Bahnschrift SemiLight Condensed
-#u Bahnschrift SemiLight SemiConde
-#u BankGothic
-#u Baskerville Old Face
-#u Bauhaus 93
-#u Bell MT
-#u Berlin Sans FB
-#u Berlin Sans FB Demi
-#u Bernard MT Condensed
-#u Besmellah 1
-#u Besmellah 2
-#u Besmellah 3
-#u Besmellah 4
-#u Besmellah 5
-#u Blackadder ITC
-#u Boahmed AlHarf
-#u Bodoni MT
-#u Bodoni MT Black
-#u Bodoni MT Condensed
-#u Bodoni MT Poster Compressed
-#u Book Antiqua
-#u Bookman Old Style
-#u Bookshelf Symbol 7
-#u Boutros Ads
-#u Boutros Ads Light
-#u Bradley Hand ITC
-#u Britannic Bold
-#u Broadway
-#u Brush Script MT
-#u Bustan-Bold
-#u Calibri
-#u Calibri Light
-#u Californian FB
-#u Calisto MT
-#u Cambria
-#u Cambria Math
-#u Candara
-#u Candara Light
-#u Castellar
-#u Centaur
-#u Century
-#u Century Gothic
-#u Century Schoolbook
-#u Cheri
-#u Cheri Liney
-#u Chiller
-#u Choobak
-#u Colonna MT
-#u Comic Sans MS
-#u Consolas
-#u Constantia
-#u Cooper Black
-#u Copperplate Gothic Bold
-#u Copperplate Gothic Light
-#u Corbel
-#u Corbel Light
-#u Courier New
-#u Curlz MT
-#u Dana
-#u Dast Nevis
-#u DecoType Naskh
-#u DecoType Naskh Extensions
-#u DecoType Naskh Special
-#u DecoType Naskh Swashes
-#u DecoType Naskh Variants
-#u DecoType Thuluth
-#u Dima
-#u Dima Bahman
-#u Dima Barf
-#u Dima Barf 2
-#u Dima Classic
-#u Dima Digital
-#u Dima Fantasy
-#u Dima Fantasy2
-#u Dima Font
-#u Dima Hall Fetica
-#u Dima Kereshmeh
-#u Dima Koodak
-#u Dima Mabella
-#u Dima Makhtom
-#u Dima Mitra
-#u Dima Naskh
-#u Dima Nastaligh Tahriri
-#u Dima Niloofar
-#u Dima Salam
-#u Dima Shekasteh Free
-#u Dima Shekasteh Free 2
-#u Dima Sogand
-#u Dima Ubuntu
-#u Dima Web
-#u Dima Yekan Regular
-#u Dima Yekan Typography
-#u Dima Yekan Web
-#u DimaArsalan
-#u DimaFred
-#u DimaPlatinum
-#u DimaThulth2
-#u Diwani Bent
-#u Dorood
-#u Dubai
-#u Dubai Light
-#u Dubai Medium
-#u Dutch & Harley
-#u Ebrima
-#u Edwardian Script ITC
-#u Elephant
-#u Engravers MT
-#u EntezareZohoor B4
-#u EntezareZohoor C
-#u EntezareZohoor C3
-#u Eras Bold ITC
-#u Eras Demi ITC
-#u Eras Light ITC
-#u Eras Medium ITC
-#u FDK_aban
-#u FP sim khardar
-#u FP_Arsoo
+#s A Zangar_Hamshahri
+#s A karbala
 #u Far.AMina
 #u Far.Abdoullah
 #u Far.Adab
@@ -486,39 +327,6 @@
 #u Far.Yekan
 #u Far.Zar
 #u Far.Ziba
-#u Felix Titling
-#u Footlight MT Light
-#u Forte
-#u Franklin Gothic Book
-#u Franklin Gothic Demi
-#u Franklin Gothic Demi Cond
-#u Franklin Gothic Heavy
-#u Franklin Gothic Medium
-#u Franklin Gothic Medium Cond
-#u Freestyle Script
-#u French Script MT
-#u Gabriola
-#u Gadugi
-#u Gandom
-#u Garamond
-#u Georgia
-#u Gigi
-#u Gill Sans MT
-#u Gill Sans MT Condensed
-#u Gill Sans MT Ext Condensed Bold
-#u Gill Sans Ultra Bold
-#u Gill Sans Ultra Bold Condensed
-#u Gloucester MT Extra Condensed
-#u Gol
-#u Goudy Old Style
-#u Goudy Stout
-#u HSN Golden
-#u HSN Moalla
-#u HSN Naskh
-#u H_Techno
-#u Haettenschweiler
-#u Harlow Solid Italic
-#u Harrington
 #u Hassan LT Light
 #u High Tower Text
 #u HoloLens MDL2 Assets
@@ -1042,3 +850,6 @@
 #u soroush
 #u yase kabood
 #u الشهيد محمد الدره
+#z Aldhabi
+#z Arabic Typesetting
+#z Arial
