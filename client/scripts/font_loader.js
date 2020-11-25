@@ -1,7 +1,7 @@
 const SAMPLE_TEXT = `این یک متن آزمایشی است !؟
 1234567890`;
 
-const fontsListElement = document.getElementsByClassName('wrapper')[0];
+const wrapperElement = document.getElementsByClassName('wrapper')[0];
 
 let fontNames = [];
 let allFontNames = [];
@@ -58,15 +58,20 @@ function fillFontsList() {
 		if (index >= 0) allFontNames.splice(index, 1);
 		else console.warn(`Cannot find ${fontName}`);
 
+		if (!(fontName.charAt(1) in GROUP_NAMES)) continue;
+
 		rowElements.push(createFontElement(fontName));
 	}
 
 	console.log(`not sorted: ${allFontNames.length}`);
 
-	for (let i = 0; i < Math.min(50, allFontNames.length); i++)
-		rowElements.push(createFontElement(`#u ${allFontNames[i]}`));
+	for (let i = 0; i < Math.min(50, allFontNames.length); i++) {
+		if (!('u' in GROUP_NAMES)) continue;
 
-	groupFonts(fontsListElement, rowElements);
+		rowElements.push(createFontElement(`#u ${allFontNames[i]}`));
+	}
+
+	groupFonts(wrapperElement, rowElements);
 }
 
 function createFontElement(fontName) {
@@ -84,7 +89,7 @@ function createFontElement(fontName) {
 
 	rowElement.appendChild(nameElement);
 	rowElement.appendChild(textElement);
-	fontsListElement.appendChild(rowElement);
+	wrapperElement.appendChild(rowElement);
 
 	return rowElement;
 }
