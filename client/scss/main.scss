@@ -13,7 +13,7 @@ $COLOR_HIGHLIGHT: cornflowerblue;
 }
 
 html {
-	font-family: "Ubuntu", "Roboto", sans-serif, serif;
+	font-family: 'Ubuntu', 'Roboto', sans-serif, serif;
 	font-size: 62.5%;
 }
 
@@ -23,7 +23,7 @@ body {
 }
 
 pre {
-	font-family: "A Fetne";
+	font-family: 'A Fetne';
 }
 
 .container {
@@ -32,65 +32,89 @@ pre {
 	margin: 0 auto;
 }
 
-.fonts-list {
+.wrapper {
 	width: 100%;
 
 	margin-top: 3rem;
 
-	h2 {
-		background-color: $COLOR_WHITE;
-		color: $COLOR_BLACK;
+	.fonts-list {
+		h2 {
+			background-color: $COLOR_WHITE;
+			color: $COLOR_BLACK;
 
-		width: 100%;
+			position: relative;
 
-		margin: 2rem auto;
-		padding: 2rem 5rem;
+			width: 100%;
 
-		font-size: 4.8rem;
+			margin: 2rem auto;
+			padding: 2rem 5rem;
 
-		text-align: center;
-		text-transform: uppercase;
+			font-size: 4.8rem;
 
-		cursor: pointer;
+			text-align: center;
+			text-transform: uppercase;
 
-		&.close {
-			background-color: $COLOR_GRAY_LIGHT;
-		}
-	}
+			cursor: pointer;
 
-	.close ~ .fonts-list__row {
-		display: none;
-	}
+			.key {
+				background-color: $COLOR_BLACK;
+				color: $COLOR_WHITE;
 
-	&__row {
-		display: flex;
-		justify-content: space-between;
-		align-items: center;
+				position: absolute;
+				top: 50%;
+				left: 2rem;
 
-		margin: 1rem auto;
-		padding: 2rem;
+				transform: translate(0, -50%);
 
-		cursor: pointer;
+				width: 4.8rem;
+				height: 4.8rem;
 
-		&:hover {
-			background-color: $COLOR_HIGHLIGHT;
-		}
+				border-radius: 50%;
 
-		&--active {
-			background-color: $COLOR_HIGHLIGHT;
+				font-size: 2.8rem;
+				line-height: 4.8rem;
+				text-align: center;
+			}
 
-			cursor: default;
-		}
-
-		&__name {
-			font-family: "Ubuntu", "Roboto", sans-serif, serif;
-			font-size: 2.4rem;
+			&.close {
+				background-color: $COLOR_GRAY_LIGHT;
+			}
 		}
 
-		&__text {
-			font-size: 3.6rem;
+		.close ~ .fonts-list__row {
+			display: none;
+		}
 
-			direction: rtl;
+		&__row {
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+
+			margin: 1rem auto;
+			padding: 2rem;
+
+			cursor: pointer;
+
+			&:hover {
+				background-color: $COLOR_HIGHLIGHT;
+			}
+
+			&--active {
+				background-color: $COLOR_HIGHLIGHT;
+
+				cursor: default;
+			}
+
+			&__name {
+				font-family: 'Ubuntu', 'Roboto', sans-serif, serif;
+				font-size: 2.4rem;
+			}
+
+			&__text {
+				font-size: 3.6rem;
+
+				direction: rtl;
+			}
 		}
 	}
 }

@@ -1,6 +1,7 @@
 // a : 'کاملاً رسمی'
 // b : 'رسمی'
-// o : 'غیر رسمی'
+// i : 'غیر رسمی'
+// o : 'گرد'
 // f : 'فانتزی'
 // h : 'دست‌خط'
 // p : 'پیکسلی'
@@ -8,6 +9,7 @@
 // d : 'عربی'
 // e : 'انگلیسی'
 // y : 'زبان‌های دیگه'
+// w : 'فونت‌های سیستمی'
 // r : 'حذفی'
 // u : 'نامشخص'
 
@@ -15,13 +17,15 @@ const GROUP_NAMES = {
 	a: 'serif',
 	b: 'sans-serif',
 	i: 'informal',
+	o: 'rounded',
 	f: 'fantasy',
 	h: 'handwriting',
 	p: 'pixel',
 	s: 'special',
 	d: 'arabic',
-	// e: 'english',
-	// y: 'other languages',
+	e: 'english',
+	y: 'other languages',
+	w: 'windows',
 	r: 'remove',
 	u: 'unknown'
 };
@@ -30,18 +34,29 @@ const GROUP_ELEMENTS = {};
 
 const groupChangerElement = document.getElementById('group-changer');
 let clickedRowElement;
+let hoveredRowElement;
+
+document.addEventListener('keyup', (e) => {
+	if (e.key in GROUP_NAMES) changeGroup(e.key);
+	else if (e.key === 'Delete') changeGroup('r');
+});
 
 function groupFonts(fontsListElement, rows) {
 	for (const groupName in GROUP_NAMES) {
 		GROUP_ELEMENTS[groupName] = document.createElement('div');
-		GROUP_ELEMENTS[groupName].setAttribute('class', 'fonts-list--' + GROUP_NAMES[groupName]);
+		GROUP_ELEMENTS[groupName].classList = 'fonts-list fonts-list--' + GROUP_NAMES[groupName];
 
 		const groupNameElement = document.createElement('h2');
 		groupNameElement.classList.add('close');
 		groupNameElement.innerHTML = GROUP_NAMES[groupName];
 		groupNameElement.addEventListener('click', toggleGroup);
-
 		GROUP_ELEMENTS[groupName].appendChild(groupNameElement);
+
+		const groupKeyElement = document.createElement('span');
+		groupKeyElement.classList.add('key');
+		groupKeyElement.innerHTML = groupName;
+		groupNameElement.appendChild(groupKeyElement);
+
 		fontsListElement.appendChild(GROUP_ELEMENTS[groupName]);
 
 		const groupChangerOptionElement = document.createElement('span');
@@ -55,6 +70,8 @@ function groupFonts(fontsListElement, rows) {
 	}
 
 	for (const row of rows) {
+		row.addEventListener('mouseover', () => (hoveredRowElement = row));
+
 		const nameElement = row.getElementsByClassName('fonts-list__row__name')[0];
 
 		const fontName = nameElement.textContent;
@@ -68,9 +85,9 @@ function groupFonts(fontsListElement, rows) {
 }
 
 function changeGroup(groupName) {
-	if (clickedRowElement == null) return;
+	if (!clickedRowElement && !hoveredRowElement) return;
 
-	GROUP_ELEMENTS[groupName].appendChild(clickedRowElement);
+	GROUP_ELEMENTS[groupName].appendChild(clickedRowElement ?? hoveredRowElement);
 
 	updateFontNames();
 }
@@ -90,18 +107,23 @@ function stringifyFontNames() {
 	for (const groupElementName in GROUP_ELEMENTS) {
 		const groupElement = GROUP_ELEMENTS[groupElementName];
 
-		const groupFullName = groupElement.getElementsByTagName('h2')[0].textContent;
+		let groupFullName = groupElement.getElementsByTagName('h2')[0].textContent;
+		groupFullName = groupFullName.substring(0, groupFullName.length - 1);
 
 		const groupName = Object.keys(GROUP_NAMES).find(
 			(key) => GROUP_NAMES[key] === groupFullName
 		);
+
+		if (!groupName) console.error(`Cannot find ${groupFullName} in GROUP_NAMES!`);
 
 		for (const row of groupElement.getElementsByClassName('fonts-list__row')) {
 			result.push('#' + groupName + ' ' + row.getElementsByTagName('pre')[0].textContent);
 		}
 	}
 
-	result.sort((a, b) => { return a.toLowerCase().localeCompare(b.toLowerCase()); });
+	result.sort((a, b) => {
+		return a.toLowerCase().localeCompare(b.toLowerCase());
+	});
 
 	return result.join('\n');
 }
@@ -113,8 +135,7 @@ function toggleGroup(event) {
 }
 
 function toggleGroupChanger(event) {
-	if (event.target !== clickedRowElement &&
-		event.target.parentElement !== clickedRowElement) {
+	if (event.target !== clickedRowElement && event.target.parentElement !== clickedRowElement) {
 		if (clickedRowElement != null)
 			clickedRowElement.classList.remove('fonts-list__row--active');
 
@@ -125,7 +146,6 @@ function toggleGroupChanger(event) {
 		if (event.target.className !== 'fonts-list__row')
 			clickedRowElement = event.target.parentElement;
 
-		console.log(event);
 		// Set position of the element
 		const mouseX = event.clientX + document.documentElement.scrollLeft;
 		const mouseY = event.clientY + document.documentElement.scrollTop;
@@ -138,8 +158,7 @@ function toggleGroupChanger(event) {
 
 			groupChangerElement.classList.remove('opened-from-bottom');
 			groupChangerElement.classList.add('opened-from-top');
-		}
-		else {
+		} else {
 			groupChangerElement.style.top = (mouseY - MenuHeight).toString() + 'px';
 
 			groupChangerElement.classList.remove('opened-from-top');
