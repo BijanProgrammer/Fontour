@@ -15,7 +15,10 @@ function loadFontNames() {
 
 	xhr.onload = function () {
 		if (this.status == 200) {
-			fontNames = this.responseText.split('\n').map((fontName) => fontName.trimRight());
+			fontNames = this.responseText
+				.split('\n')
+				.map((fontName) => fontName.trimRight())
+				.filter((value) => value.toString());
 			loadAllFontNames();
 		}
 	};

@@ -129,6 +129,43 @@
 #p A Pixel
 #p B Elm
 #p B Elm Border
+#r 2  Yekan
+#r A Hana
+#r A Jannat LT
+#r Georgia
+#r Marlett
+#r Mohammad RasoolAllah
+#r Motken AL-Rafidain Art
+#r Nafees Web Naskh
+#r Noor_e_Quran
+#r TheSans
+#r Wide Latin
+#s A Fetne
+#s A karbala
+#s A KORDi
+#s A Zangar_Hamshahri
+#s dara-azad
+#s dara-benogtee
+#s dara-classic
+#s dara-fer
+#s dara-form
+#s dara-gol
+#s dara-khashak
+#s dara-peyvastee
+#s dara-voice2
+#s dara-zanjir
+#t Ordibehesht
+#t Ordibehesht shablon
+#t TitrStancil
+#t TitrStancil drips
+#t TitrStancil Old
+#t TitrZebr
+#u Artin
+#u Peyda
+#u Peyda ExtBd
+#u Peyda ExtLt
+#u Peyda Med
+#u Peyda SemBd
 #w Aldhabi
 #w Andalus
 #w Bahnschrift
@@ -167,8 +204,6 @@
 #w Microsoft YaHei
 #w Microsoft YaHei UI
 #w Microsoft Yi Baiti
-#y MingLiU_HKSCS-ExtB
-#y MingLiU-ExtB
 #w Mongolian Baiti
 #w MS Gothic
 #w MS Outlook
@@ -207,36 +242,7 @@
 #w Verdana
 #w Webdings
 #w Wingdings
+#y MingLiU_HKSCS-ExtB
+#y MingLiU-ExtB
 #y Yu Gothic
 #y Yu Gothic UI
-
-#r A Hana
-#r A Jannat LT
-#r Nafees Web Naskh
-#r Noor_e_Quran
-#s A Fetne
-#s A karbala
-#s A KORDi
-#s A Zangar_Hamshahri
-#s dara-azad
-#s dara-benogtee
-#s dara-classic
-#s dara-fer
-#s dara-form
-#s dara-gol
-#s dara-khashak
-#s dara-peyvastee
-#s dara-voice2
-#s dara-zanjir
-#t Ordibehesht
-#t Ordibehesht shablon
-#t TitrStancil
-#t TitrStancil drips
-#t TitrStancil Old
-#t TitrZebr
-#u Artin
-#u Peyda
-#u Peyda ExtBd
-#u Peyda ExtLt
-#u Peyda Med
-#u Peyda SemBd
