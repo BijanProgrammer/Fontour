@@ -25,9 +25,9 @@ const GROUP_NAMES = {
 	p: 'pixel',
 	s: 'special',
 	d: 'arabic',
-	e: 'english',
-	y: 'other languages',
-	w: 'windows',
+	// e: 'english',
+	// y: 'other languages',
+	// w: 'windows',
 	r: 'remove',
 	u: 'unknown'
 };

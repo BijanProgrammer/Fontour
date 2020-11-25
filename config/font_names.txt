@@ -129,17 +129,6 @@
 #p A Pixel
 #p B Elm
 #p B Elm Border
-#r 2  Yekan
-#r A Hana
-#r A Jannat LT
-#r Georgia
-#r Marlett
-#r Mohammad RasoolAllah
-#r Motken AL-Rafidain Art
-#r Nafees Web Naskh
-#r Noor_e_Quran
-#r TheSans
-#r Wide Latin
 #s A Fetne
 #s A karbala
 #s A KORDi
@@ -160,12 +149,21 @@
 #t TitrStancil drips
 #t TitrStancil Old
 #t TitrZebr
+#u 2  Yekan
+#u A Hana
+#u A Jannat LT
 #u Artin
+#u Mohammad RasoolAllah
+#u Motken AL-Rafidain Art
+#u Nafees Web Naskh
+#u Noor_e_Quran
 #u Peyda
 #u Peyda ExtBd
 #u Peyda ExtLt
 #u Peyda Med
 #u Peyda SemBd
+#u TheSans
+#u Wide Latin
 #w Aldhabi
 #w Andalus
 #w Bahnschrift
@@ -183,6 +181,7 @@
 #w Ebrima
 #w Gabriola
 #w Gadugi
+#w Georgia
 #w HoloLens MDL2 Assets
 #w Impact
 #w Ink Free
@@ -193,6 +192,7 @@
 #w Lucida Sans Typewriter
 #w Lucida Sans Unicode
 #w Malgun Gothic
+#w Marlett
 #w Microsoft Himalaya
 #w Microsoft JhengHei
 #w Microsoft JhengHei UI
