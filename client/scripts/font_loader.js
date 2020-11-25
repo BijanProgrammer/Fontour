@@ -35,7 +35,9 @@ function loadAllFontNames() {
 				.map((fontName) => fontName.trimRight())
 				.filter(
 					(value) =>
-						value.search(/(italic|bold|black|heavy|medium|light|narrow|thin)/i) === -1
+						value.search(
+							/(italic|bold|black|heavy|medium|light|narrow|thin|condensed|semicondensed)/i
+						) === -1
 				);
 
 			fillFontsList();
