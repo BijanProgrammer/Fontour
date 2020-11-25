@@ -180,72 +180,40 @@
 #w MV Boli
 #w Myanmar Text
 #w Nirmala UI
+#w NSimSun
+#w Palatino Linotype
+#w PMingLiU-ExtB
+#w Sakkal Majalla
+#w Segoe MDL2 Assets
+#w Segoe Print
+#w Segoe Script
+#w Segoe UI
+#w Segoe UI Emoji
+#w Segoe UI Historic
+#w Segoe UI Symbol
+#w SimSun
+#w SimSun-ExtB
+#w Sitka Banner
+#w Sitka Display
+#w Sitka Heading
+#w Sitka Small
+#w Sitka Subheading
+#w Sitka Text
+#w Sylfaen
+#w Symbol
+#w Times New Roman
+#w Traditional Arabic
+#w Trebuchet MS
+#w Verdana
+#w Webdings
+#w Wingdings
+#y Yu Gothic
+#y Yu Gothic UI
 
 #r A Hana
 #r A Jannat LT
 #r Nafees Web Naskh
 #r Noor_e_Quran
-#r NSimSun
-#r Nunito Sans
-#r OCR A Extended
-#r Old Antic Decorative
-#r Old English Text MT
-#r Onyx
-#r Open Sans
-#r Palatino Linotype
-#r Playbill
-#r PMingLiU-ExtB
-#r Poor Richard
-#r Pristina
-#r Rockwell
-#r Rockwell Condensed
-#r Sakkal Majalla
-#r Segoe MDL2 Assets
-#r Segoe Print
-#r Segoe Script
-#r Segoe UI
-#r Segoe UI Emoji
-#r Segoe UI Historic
-#r Segoe UI Symbol
-#r Showcard Gothic
-#r SimSun
-#r SimSun-ExtB
-#r Sitka Banner
-#r Sitka Display
-#r Sitka Heading
-#r Sitka Small
-#r Sitka Subheading
-#r Sitka Text
-#r Snap ITC
-#r Stencil
-#r Sylfaen
-#r Symbol
-#r Tempus Sans ITC
-#r Thabit
-#r TheSans
-#r Times New Roman
-#r Titan One
-#r Titillium
-#r Titillium Bd
-#r Titillium Lt
-#r Titillium Up
-#r ToyorAljanah
-#r Traditional Arabic
-#r Trashin
-#r Trebuchet MS
-#r Unispace
-#r Verdana
-#r Viner Hand ITC
-#r Vivaldi
-#r Vladimir Script
-#r Webdings
-#r Wide Latin
-#r Wingdings
-#r Wingdings 2
-#r Wingdings 3
-#r Yu Gothic
-#r Yu Gothic UI
-#r ZFRefah
 #s A Fetne
 #s A karbala
 #s A KORDi
