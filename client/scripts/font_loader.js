@@ -1,11 +1,5 @@
-const SAMPLE_TEXT = `یک لحظه چشم دوخت به فنجان خالی‌ام
-آرام و سرد گفت که در طالع شما ...
-
-اینجا فقط دو خط موازی نشسته است
-یعنی دو نفر دلشده‌ی تا ابد جدا
-
-گفتم درست نیست، از اول نگاه کن
-فریاد زد بفهم! رها کرده او تو را ...`;
+const SAMPLE_TEXT = `این یک متن آزمایشی است !؟
+1234567890`;
 
 const fontsListElement = document.getElementsByClassName('wrapper')[0];
 
@@ -40,7 +34,8 @@ function loadAllFontNames() {
 				.split('\n')
 				.map((fontName) => fontName.trimRight())
 				.filter(
-					(value) => value.search(/(italic|bold|black|heavy|medium|light|narrow)/i) === -1
+					(value) =>
+						value.search(/(italic|bold|black|heavy|medium|light|narrow|thin)/i) === -1
 				);
 
 			fillFontsList();

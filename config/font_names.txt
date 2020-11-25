@@ -1,24 +1,34 @@
 #a B Nazanin
 #a B Titr
+#a Bahij Nazanin
 #a IRANYekan
 #b A Hayat
 #b A Nasr
 #b A Salamat
 #b B Homa
-#b B Koodak
 #b B Lotus
 #b B Tehran
-#b B Yekan
 #b Dana
 #b Dima
+#b Dubai
+#b Estedad
 #b Far.Diplomaat
+#b Gandom
+#b Harir
 #b IRANSans
+#b IRANSansMonoSpacedNum
+#b IRANSansMonoSpacedNum UltraLi
 #b Sahel
+#d A Thuluth
+#d Adobe Arabic
 #d Arabic Typesetting
 #d QuranTaha
 #d Simplified Arabic
 #d Simplified Arabic Fixed
 #d ZARGHAN MO'ALA
+#e Arial
+#e Calibri
+#e Consolas
 #f A Arghavan
 #f A Armita
 #f A Armita Black
@@ -33,6 +43,8 @@
 #f A Sane Jaleh
 #f A Sardar Hoor
 #f AFSANEH
+#f Ahlan
+#f Artin
 #f B Morvarid
 #f B Sepideh
 #f Dima Sogand
@@ -47,7 +59,9 @@
 #f Persian-Aman
 #f W_hesam
 #f ZARGHAN HADITH
+#h A Nafis
 #h A Shekari
+#h bakeri
 #h Dast Nevis
 #h Dima Nastaligh Tahriri
 #h Dima Shekasteh Free
@@ -86,13 +100,115 @@
 #i EntezareZohoor B4
 #i FDK_aban
 #i FP_Arsoo
+#i g aseman
+#i IRANMarker
 #i Mj_Beirut Heading
 #i Neirizi
 #i Persian-EntezareZohoor 1 **
+#o Aviny
 #p A Bank
 #p A Pixel
 #p B Elm
 #p B Elm Border
+#r 2  Yekan
+#r A Hana
+#r A Jannat LT
+#r Adobe Arabic SHIN
+#r Adobe SHIN
+#r Aldhabi
+#r Andalus
+#r Ara Hamah 1982
+#r Ara Hamah AlFidaa
+#r Ara Hamah AlHorra
+#r Ara Hamah Alislam
+#r Ara Hamah AlThawra
+#r Ara Hamah Homs
+#r Ara Hamah Kilania
+#r Ara Hamah Sahet AlAssi
+#r Ara Hamah Zanki
+#r Ara Jozoor
+#r ArianLT-Demi
+#r ArianLT-Regular
+#r arvahonafedah
+#r B Mashhad
+#r bader_al merkaz
+#r bader_al naseem
+#r Bahnschrift
+#r Bahnschrift Condensed
+#r Bahnschrift SemiCondensed
+#r Ballpark
+#r BankGothic
+#r Baskerville Old Face
+#r Bauhaus 93
+#r Bedayah
+#r Bell MT
+#r Berlin Sans FB
+#r Berlin Sans FB Demi
+#r Bernard MT Condensed
+#r Bodoni MT
+#r Bodoni MT Condensed
+#r Bodoni MT Poster Compressed
+#r Book Antiqua
+#r Bookman Old Style
+#r Bookshelf Symbol 7
+#r Boutros Ads
+#r Bradley Hand ITC
+#r Broadway
+#r Brush Script MT
+#r Californian FB
+#r Calisto MT
+#r Cambria
+#r Cambria Math
+#r Candara
+#r Castellar
+#r Centaur
+#r Century
+#r Century Gothic
+#r Century Schoolbook
+#r Cheri
+#r Cheri Liney
+#r Chiller
+#r Choobak
+#r Colonna MT
+#r Comic Sans MS
+#r Constantia
+#r Corbel
+#r Courier New
+#r Curlz MT
+#r Dutch & Harley
+#r Ebrima
+#r Edwardian Script ITC
+#r Elephant
+#r Engravers MT
+#r Eras Demi ITC
+#r Exo 2
+#r Felix Titling
+#r Forte
+#r Franklin Gothic Book
+#r Franklin Gothic Demi
+#r Franklin Gothic Demi Cond
+#r Freestyle Script
+#r French Script MT
+#r Gabriola
+#r Gadugi
+#r Garamond
+#r Georgia
+#r Gigi
+#r Gill Sans MT
+#r Gill Sans MT Condensed
+#r Gloucester MT Extra Condensed
+#r Goudy Old Style
+#r Goudy Stout
+#r Haettenschweiler
+#r Harrington
+#r High Tower Text
+#r HoloLens MDL2 Assets
+#r HolyMoly
+#r Impact
+#r Imprint MT Shadow
+#r Informal Roman
+#r Ink Free
+#r iran-moghtased
 #s A Fetne
 #s A karbala
 #s A KORDi
