@@ -56,6 +56,8 @@ function fillFontsList() {
 		rowElements.push(createFontElement(fontName));
 	}
 
+	console.log(`not sorted: ${allFontNames.length}`);
+
 	for (let i = 0; i < Math.min(50, allFontNames.length); i++)
 		rowElements.push(createFontElement(`#u ${allFontNames[i]}`));
 

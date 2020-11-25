@@ -1,6 +1,7 @@
 // a : 'کاملاً رسمی'
 // b : 'رسمی'
 // i : 'غیر رسمی'
+// t : 'تیتر'
 // o : 'گرد'
 // f : 'فانتزی'
 // h : 'دست‌خط'
@@ -17,6 +18,7 @@ const GROUP_NAMES = {
 	a: 'serif',
 	b: 'sans-serif',
 	i: 'informal',
+	t: 'title',
 	o: 'rounded',
 	f: 'fantasy',
 	h: 'handwriting',

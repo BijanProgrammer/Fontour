@@ -18,17 +18,28 @@
 #b IRANSans
 #b IRANSansMonoSpacedNum
 #b IRANSansMonoSpacedNum UltraLi
+#b Nesf
 #b Sahel
+#b Samim
+#b Samim FD
+#b Shabnam
+#b Shabnam FD
 #d A Thuluth
 #d Adobe Arabic
 #d Arabic Typesetting
+#d Nabi
+#d Neckar
 #d QuranTaha
 #d Simplified Arabic
 #d Simplified Arabic Fixed
+#d THULUTH THARWAT EMARA GOLDEN
 #d ZARGHAN MO'ALA
 #e Arial
 #e Calibri
 #e Consolas
+#e Roboto
+#e Tahoma
+#e Ubuntu
 #f A Arghavan
 #f A Armita
 #f A Armita Black
@@ -44,7 +55,6 @@
 #f A Sardar Hoor
 #f AFSANEH
 #f Ahlan
-#f Artin
 #f B Morvarid
 #f B Sepideh
 #f Dima Sogand
@@ -53,10 +63,14 @@
 #f Far.Ashgar
 #f Far.Fanni
 #f Far.Navad
+#f Kamva
 #f Mj_Kaman
 #f Mj_Silicon
 #f Persian-Akbar
 #f Persian-Aman
+#f Shafrah
+#f Shafrah Connected Dots
+#f SOGAND
 #f W_hesam
 #f ZARGHAN HADITH
 #h A Nafis
@@ -65,6 +79,7 @@
 #h Dast Nevis
 #h Dima Nastaligh Tahriri
 #h Dima Shekasteh Free
+#h Dima Shekasteh Free 2
 #h Far.Dast Nevis
 #h Far.Khodkar
 #h IranNastaliq
@@ -77,6 +92,7 @@
 #h Sayeh2
 #h Shekasteh_Beta
 #h Urdu Typesetting
+#h W_kelas aval
 #h W_parvaz
 #i A Amine
 #i A Chamran
@@ -105,11 +121,16 @@
 #i Mj_Beirut Heading
 #i Neirizi
 #i Persian-EntezareZohoor 1 **
+#i SG Kara
 #o Aviny
+#o katibeh
+#o SH Blabeloo
 #p A Bank
 #p A Pixel
 #p B Elm
 #p B Elm Border
+#r _PDMS_IslamicFont
+#r _PDMS_Saleem_QuranFont
 #r 2  Yekan
 #r A Hana
 #r A Jannat LT
@@ -209,6 +230,134 @@
 #r Informal Roman
 #r Ink Free
 #r iran-moghtased
+#r Javanese Text
+#r JK Abode
+#r Jokerman
+#r Jomhuria
+#r Juice ITC
+#r KacstOne
+#r kaman1
+#r khoyazeri
+#r Kristen ITC
+#r Kufyan Arabic Regular
+#r Kunstler Script
+#r Leelawadee
+#r Leelawadee UI
+#r Lucida Bright
+#r Lucida Calligraphy
+#r Lucida Console
+#r Lucida Fax
+#r Lucida Handwriting
+#r Lucida Sans
+#r Lucida Sans Typewriter
+#r Lucida Sans Unicode
+#r Magneto
+#r Maiandra GD
+#r Malgun Gothic
+#r Marlett
+#r Matura MT Script Capitals
+#r mbak Endang Love
+#r Mehr Nastaliq Web
+#r Microsoft Himalaya
+#r Microsoft JhengHei
+#r Microsoft JhengHei UI
+#r Microsoft New Tai Lue
+#r Microsoft PhagsPa
+#r Microsoft Sans Serif
+#r Microsoft Tai Le
+#r Microsoft Uighur
+#r Microsoft YaHei
+#r Microsoft YaHei UI
+#r Microsoft Yi Baiti
+#r MingLiU_HKSCS-ExtB
+#r MingLiU-ExtB
+#r Mistral
+#r Modern No. 20
+#r Mohammad RasoolAllah
+#r Mongolian Baiti
+#r Monotype Corsiva
+#r Montserrat
+#r Morvarid
+#r Motken AL-Rafidain Art
+#r Motken Unicode Claseec
+#r MS Gothic
+#r MS Outlook
+#r MS PGothic
+#r MS Reference Sans Serif
+#r MS Reference Specialty
+#r MS UI Gothic
+#r MT Extra
+#r MV Boli
+#r Myanmar Text
+#r Nafees Web Naskh
+#r Nazli
+#r Niagara Engraved
+#r Niagara Solid
+#r Nirmala UI
+#r Noor_e_Quran
+#r noorehira
+#r noorehuda
+#r NSimSun
+#r Nunito Sans
+#r OCR A Extended
+#r Old Antic Decorative
+#r Old English Text MT
+#r Onyx
+#r Open Sans
+#r Palatino Linotype
+#r Playbill
+#r PMingLiU-ExtB
+#r Poor Richard
+#r Pristina
+#r Rockwell
+#r Rockwell Condensed
+#r Sakkal Majalla
+#r Segoe MDL2 Assets
+#r Segoe Print
+#r Segoe Script
+#r Segoe UI
+#r Segoe UI Emoji
+#r Segoe UI Historic
+#r Segoe UI Symbol
+#r Showcard Gothic
+#r SimSun
+#r SimSun-ExtB
+#r Sitka Banner
+#r Sitka Display
+#r Sitka Heading
+#r Sitka Small
+#r Sitka Subheading
+#r Sitka Text
+#r Snap ITC
+#r Stencil
+#r Sylfaen
+#r Symbol
+#r Tempus Sans ITC
+#r Thabit
+#r TheSans
+#r Times New Roman
+#r Titan One
+#r Titillium
+#r Titillium Bd
+#r Titillium Lt
+#r Titillium Up
+#r ToyorAljanah
+#r Traditional Arabic
+#r Trashin
+#r Trebuchet MS
+#r Unispace
+#r Verdana
+#r Viner Hand ITC
+#r Vivaldi
+#r Vladimir Script
+#r Webdings
+#r Wide Latin
+#r Wingdings
+#r Wingdings 2
+#r Wingdings 3
+#r Yu Gothic
+#r Yu Gothic UI
+#r ZFRefah
 #s A Fetne
 #s A karbala
 #s A KORDi
@@ -223,3 +372,15 @@
 #s dara-peyvastee
 #s dara-voice2
 #s dara-zanjir
+#t Ordibehesht
+#t Ordibehesht shablon
+#t TitrStancil
+#t TitrStancil drips
+#t TitrStancil Old
+#t TitrZebr
+#u Artin
+#u Peyda
+#u Peyda ExtBd
+#u Peyda ExtLt
+#u Peyda Med
+#u Peyda SemBd
