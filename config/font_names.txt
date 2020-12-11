@@ -2,6 +2,7 @@
 #a B Titr
 #a Bahij Nazanin
 #a IRANYekan
+#a Peyda
 #b A Hayat
 #b A Nasr
 #b A Salamat
@@ -32,13 +33,10 @@
 #d QuranTaha
 #d Simplified Arabic
 #d Simplified Arabic Fixed
+#d TheSans
 #d THULUTH THARWAT EMARA GOLDEN
 #d ZARGHAN MO'ALA
-#e Arial
-#e Calibri
-#e Consolas
 #e Roboto
-#e Tahoma
 #e Ubuntu
 #f A Arghavan
 #f A Armita
@@ -46,6 +44,7 @@
 #f A Atila
 #f A Ghasem
 #f A Hamase
+#f A Jannat LT
 #f A Massir Ballpoint
 #f A Mosalas
 #f A Ordibehesht shablon
@@ -57,12 +56,14 @@
 #f Ahlan
 #f B Morvarid
 #f B Sepideh
+#f Dalgha
 #f Dima Sogand
 #f EntezareZohoor C
 #f EntezareZohoor C3
 #f Far.Ashgar
 #f Far.Fanni
 #f Far.Navad
+#f Javan
 #f Kamva
 #f Mj_Kaman
 #f Mj_Silicon
@@ -82,18 +83,21 @@
 #h Dima Shekasteh Free 2
 #h Far.Dast Nevis
 #h Far.Khodkar
+#h FP_Mehregan
 #h IranNastaliq
 #h Maneli
 #h Mj_Ghalam-1
 #h Mj_Ghalam-2
 #h Mj_Sayeh-1
 #h Mj_Sayeh-2
+#h motavaseliyan
 #h pHalls Khodkar
 #h Sayeh2
 #h Shekasteh_Beta
 #h Urdu Typesetting
 #h W_kelas aval
 #h W_parvaz
+#h ZolFoon1.1.3
 #i A Amine
 #i A Chamran
 #i A Iranian Sans
@@ -104,8 +108,11 @@
 #i A Soraya
 #i A Yasamin
 #i Amiri
+#i Artin
+#i Artin Sharp
 #i B Mehr
 #i B Vahid
+#i CHAKMEH
 #i Dima Barf
 #i Dima Fantasy
 #i Dima Fantasy2
@@ -116,12 +123,18 @@
 #i EntezareZohoor B4
 #i FDK_aban
 #i FP_Arsoo
+#i FP_Gelayol
 #i g aseman
+#i Hezargan
 #i IRANMarker
 #i Mj_Beirut Heading
 #i Neirizi
 #i Persian-EntezareZohoor 1 **
+#i Raymon
 #i SG Kara
+#i Shahrzad
+#i ZFRefah
+#o A nic
 #o Aviny
 #o katibeh
 #o SH Blabeloo
@@ -143,38 +156,28 @@
 #s dara-peyvastee
 #s dara-voice2
 #s dara-zanjir
+#t CactusCircleDots
+#t CactusLozengeDots
+#t CactusSquareDots
+#t CactusStrokeDots
+#t Jomhuria
 #t Ordibehesht
 #t Ordibehesht shablon
 #t TitrStancil
 #t TitrStancil drips
 #t TitrStancil Old
 #t TitrZebr
-#u 2  Yekan
-#u A Hana
-#u A Jannat LT
-#u Artin
-#u Mohammad RasoolAllah
-#u Motken AL-Rafidain Art
-#u Nafees Web Naskh
-#u Noor_e_Quran
-#u Peyda
-#u Peyda ExtBd
-#u Peyda ExtLt
-#u Peyda Med
-#u Peyda SemBd
-#u TheSans
-#u Wide Latin
 #w Aldhabi
 #w Andalus
+#w Arial
 #w Bahnschrift
+#w Calibri
 #w Cambria
 #w Cambria Math
 #w Candara
-#w Castellar
-#w Century
 #w Century Gothic
-#w Century Schoolbook
 #w Comic Sans MS
+#w Consolas
 #w Constantia
 #w Corbel
 #w Courier New
@@ -189,7 +192,6 @@
 #w Leelawadee UI
 #w Lucida Console
 #w Lucida Sans
-#w Lucida Sans Typewriter
 #w Lucida Sans Unicode
 #w Malgun Gothic
 #w Marlett
@@ -204,6 +206,8 @@
 #w Microsoft YaHei
 #w Microsoft YaHei UI
 #w Microsoft Yi Baiti
+#w MingLiU_HKSCS-ExtB
+#w MingLiU-ExtB
 #w Mongolian Baiti
 #w MS Gothic
 #w MS Outlook
@@ -236,13 +240,13 @@
 #w Sitka Text
 #w Sylfaen
 #w Symbol
+#w Tahoma
 #w Times New Roman
 #w Traditional Arabic
 #w Trebuchet MS
 #w Verdana
 #w Webdings
+#w Wide Latin
 #w Wingdings
-#y MingLiU_HKSCS-ExtB
-#y MingLiU-ExtB
-#y Yu Gothic
-#y Yu Gothic UI
+#w Yu Gothic
+#w Yu Gothic UI

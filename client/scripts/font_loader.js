@@ -1,5 +1,5 @@
-const SAMPLE_TEXT = `این یک متن آزمایشی است !؟
-1234567890`;
+const SAMPLE_TEXT = `کاش جای درد دل کردن برای دیگران
+حرمت این عشق را چون من نگه می داشتی`;
 
 const wrapperElement = document.getElementsByClassName('wrapper')[0];
 
@@ -19,6 +19,7 @@ function loadFontNames() {
 				.split('\n')
 				.map((fontName) => fontName.trimRight())
 				.filter((value) => value.toString());
+
 			loadAllFontNames();
 		}
 	};
@@ -37,11 +38,10 @@ function loadAllFontNames() {
 				.split('\n')
 				.map((fontName) => fontName.trimRight())
 				.filter(
-					(value) =>
-						value.search(
-							/(italic|bold|black|heavy|medium|light|narrow|thin|condensed|semicondensed)/i
-						) === -1
+					(value) => !EXCLUDE.includes(value) && value.search(FONT_TYPE_FILTERS) === -1
 				);
+
+			allFontNames.push(...INCLUDE);
 
 			fillFontsList();
 		}

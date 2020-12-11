@@ -31,3 +31,7 @@ const GROUP_NAMES = {
 	r: 'remove',
 	u: 'unknown'
 };
+
+const EXCLUDE = ['2  Yekan', 'A Hana', 'Mohammad RasoolAllah', 'Nafees Web Naskh', 'Noor_e_Quran'];
+const INCLUDE = ['A Armita Black'];
+const FONT_TYPE_FILTERS = /(italic|bold|black|heavy|medium|light|narrow|thin|condensed|semicondensed|extbd|extlt|med|sembd)/i;
