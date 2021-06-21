@@ -1,5 +1,4 @@
 #a B Nazanin
-#a B Titr
 #a Bahij Nazanin
 #a IRANYekan
 #a Peyda
@@ -33,12 +32,9 @@
 #d QuranTaha
 #d Simplified Arabic
 #d Simplified Arabic Fixed
-#d TheSans
 #d THULUTH THARWAT EMARA GOLDEN
+#d TheSans
 #d ZARGHAN MO'ALA
-#e Roboto
-#e Ubuntu
-#f A Arghavan
 #f A Armita
 #f A Armita Black
 #f A Atila
@@ -69,35 +65,35 @@
 #f Mj_Silicon
 #f Persian-Akbar
 #f Persian-Aman
+#f SOGAND
 #f Shafrah
 #f Shafrah Connected Dots
-#f SOGAND
 #f W_hesam
 #f ZARGHAN HADITH
 #h A Nafis
 #h A Shekari
-#h bakeri
 #h Dast Nevis
 #h Dima Nastaligh Tahriri
 #h Dima Shekasteh Free
 #h Dima Shekasteh Free 2
+#h FP_Mehregan
 #h Far.Dast Nevis
 #h Far.Khodkar
-#h FP_Mehregan
 #h IranNastaliq
 #h Maneli
 #h Mj_Ghalam-1
 #h Mj_Ghalam-2
 #h Mj_Sayeh-1
 #h Mj_Sayeh-2
-#h motavaseliyan
-#h pHalls Khodkar
 #h Sayeh2
 #h Shekasteh_Beta
 #h Urdu Typesetting
 #h W_kelas aval
 #h W_parvaz
 #h ZolFoon1.1.3
+#h bakeri
+#h motavaseliyan
+#h pHalls Khodkar
 #i A Amine
 #i A Chamran
 #i A Iranian Sans
@@ -124,7 +120,6 @@
 #i FDK_aban
 #i FP_Arsoo
 #i FP_Gelayol
-#i g aseman
 #i Hezargan
 #i IRANMarker
 #i Mj_Beirut Heading
@@ -134,18 +129,19 @@
 #i SG Kara
 #i Shahrzad
 #i ZFRefah
+#i g aseman
 #o A nic
 #o Aviny
-#o katibeh
 #o SH Blabeloo
+#o katibeh
 #p A Bank
 #p A Pixel
 #p B Elm
 #p B Elm Border
 #s A Fetne
-#s A karbala
 #s A KORDi
 #s A Zangar_Hamshahri
+#s A karbala
 #s dara-azad
 #s dara-benogtee
 #s dara-classic
@@ -156,6 +152,7 @@
 #s dara-peyvastee
 #s dara-voice2
 #s dara-zanjir
+#t B Titr
 #t CactusCircleDots
 #t CactusLozengeDots
 #t CactusSquareDots
@@ -164,89 +161,6 @@
 #t Ordibehesht
 #t Ordibehesht shablon
 #t TitrStancil
-#t TitrStancil drips
 #t TitrStancil Old
+#t TitrStancil drips
 #t TitrZebr
-#w Aldhabi
-#w Andalus
-#w Arial
-#w Bahnschrift
-#w Calibri
-#w Cambria
-#w Cambria Math
-#w Candara
-#w Century Gothic
-#w Comic Sans MS
-#w Consolas
-#w Constantia
-#w Corbel
-#w Courier New
-#w Ebrima
-#w Gabriola
-#w Gadugi
-#w Georgia
-#w HoloLens MDL2 Assets
-#w Impact
-#w Ink Free
-#w Javanese Text
-#w Leelawadee UI
-#w Lucida Console
-#w Lucida Sans
-#w Lucida Sans Unicode
-#w Malgun Gothic
-#w Marlett
-#w Microsoft Himalaya
-#w Microsoft JhengHei
-#w Microsoft JhengHei UI
-#w Microsoft New Tai Lue
-#w Microsoft PhagsPa
-#w Microsoft Sans Serif
-#w Microsoft Tai Le
-#w Microsoft Uighur
-#w Microsoft YaHei
-#w Microsoft YaHei UI
-#w Microsoft Yi Baiti
-#w MingLiU_HKSCS-ExtB
-#w MingLiU-ExtB
-#w Mongolian Baiti
-#w MS Gothic
-#w MS Outlook
-#w MS PGothic
-#w MS Reference Sans Serif
-#w MS Reference Specialty
-#w MS UI Gothic
-#w MT Extra
-#w MV Boli
-#w Myanmar Text
-#w Nirmala UI
-#w NSimSun
-#w Palatino Linotype
-#w PMingLiU-ExtB
-#w Sakkal Majalla
-#w Segoe MDL2 Assets
-#w Segoe Print
-#w Segoe Script
-#w Segoe UI
-#w Segoe UI Emoji
-#w Segoe UI Historic
-#w Segoe UI Symbol
-#w SimSun
-#w SimSun-ExtB
-#w Sitka Banner
-#w Sitka Display
-#w Sitka Heading
-#w Sitka Small
-#w Sitka Subheading
-#w Sitka Text
-#w Sylfaen
-#w Symbol
-#w Tahoma
-#w Times New Roman
-#w Traditional Arabic
-#w Trebuchet MS
-#w Verdana
-#w Webdings
-#w Wide Latin
-#w Wingdings
-#w Yu Gothic
-#w Yu Gothic UI

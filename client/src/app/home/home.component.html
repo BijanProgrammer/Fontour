@@ -1,0 +1,23 @@
+<aside>
+    <nav>
+        <ul>
+            <li *ngFor="let pair of Config.GROUP_NAMES | pairs"
+                [class.active]="pair.key === activeGroupKey"
+                (click)="navigationClickHandler(pair.key)">
+                <span class="key">{{pair.key}}</span>
+                <span class="title">{{pair.value}}</span>
+            </li>
+        </ul>
+    </nav>
+</aside>
+
+<main>
+    <ul>
+        <li *ngFor="let font of groups[activeGroupKey]; let i = index"
+            (mouseover)="fontMouseOverHandler(i)"
+            (mouseleave)="fontMouseLeaveHandler()">
+            <div class="title">{{font}}</div>
+            <p class="text" [ngStyle]="{'font-family': font}">{{Config.SAMPLE_TEXT}}</p>
+        </li>
+    </ul>
+</main>

@@ -1,0 +1,94 @@
+:host {
+  --gap: 1rem;
+
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr);
+
+  height: 100vh;
+
+  aside {
+    background-color: var(--color-gray-10);
+
+    overflow: auto;
+
+    nav {
+      ul {
+        width: max-content;
+
+        li {
+          padding: var(--gap);
+
+          font-size: 1.8rem;
+
+          cursor: pointer;
+
+          .key {
+            color: var(--color-accent);
+
+            display: inline-block;
+            box-sizing: content-box;
+
+            width: 1em;
+
+            margin-right: var(--gap);
+
+            line-height: 100%;
+            text-align: center;
+          }
+
+          &:hover {
+            background-color: var(--color-gray-25);
+          }
+
+          &.active {
+            background-color: var(--color-primary);
+
+            .key {
+              color: unset;
+            }
+
+            &:hover {
+              background-color: var(--color-primary--darker);
+            }
+          }
+        }
+      }
+    }
+  }
+
+  main {
+    overflow: auto;
+
+    padding: var(--gap);
+
+    ul {
+      display: grid;
+      gap: var(--gap);
+
+      li {
+        background-color: var(--color-gray-15);
+
+        display: grid;
+        grid-template-columns: auto minmax(0, 1fr);
+
+        padding: var(--gap);
+
+        &:hover {
+          background-color: var(--color-accent);
+        }
+
+        .title {
+          font-size: 1.8rem;
+        }
+
+        .text {
+          direction: rtl;
+
+          font-size: 2.4rem;
+          text-align: right;
+          white-space: pre-line;
+        }
+      }
+    }
+  }
+}
