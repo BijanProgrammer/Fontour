@@ -1,0 +1,27 @@
+{
+  "name": "fontour",
+  "version": "1.0.0",
+  "description": "Browse your fonts and choose the one you like the most :D",
+  "main": "index.js",
+  "scripts": {
+    "start": "concurrently \"npm start --prefix server\" \"npm start --prefix client\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BijanProgrammer/Fontour.git"
+  },
+  "keywords": [
+    "font",
+    "gallery",
+    "font manager"
+  ],
+  "author": "BijanProgrammer",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BijanProgrammer/Fontour/issues"
+  },
+  "homepage": "https://github.com/BijanProgrammer/Fontour#readme",
+  "dependencies": {
+    "concurrently": "^6.2.1"
+  }
+}

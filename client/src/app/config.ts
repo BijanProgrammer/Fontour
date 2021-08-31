@@ -36,7 +36,10 @@ const EXCLUDE = ['2  Yekan', 'A Hana', 'Mohammad RasoolAllah', 'Nafees Web Naskh
 const INCLUDE = ['A Armita Black'];
 const FONT_TYPE_FILTERS = /(italic|bold|black|heavy|medium|light|narrow|thin|condensed|semicondensed|extbd|extlt|med|sembd)/i;
 
-const SAMPLE_TEXT = `اگر تجربه کار قبلی داری، خیلی جالب نیست که فقط عنوان پروژه رو بگی!`;
+const SAMPLE_TEXT = `بیا!
+بوی عطرت را
+بر روی شانه‌ام
+فراموش کرده‌ام`;
 
 export default {
     GROUP_NAMES,
